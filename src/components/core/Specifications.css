@@ -1,0 +1,61 @@
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content .text-box{
+    z-index: 222;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+}
+
+.info-title{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.info{
+    width: 700px;
+    margin-left: 50px;
+}
+
+.content .image img{
+    background-image: url('../../assets/alcohol.jpg');
+}
+
+.content .image-01 img{
+    background-image: url('../../assets/accident.jpg');
+    width: 565px;
+    height: 500px;
+}
+
+.content .image-02 img{
+    background-image: url('../../assets/speeding.jpg');
+    width: 565px;
+    height: 500px;
+}
